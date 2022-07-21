@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 107, in script
+    $player.sympathy_vera -=2
+  File "game/script.rpy", line 107, in <module>
+    $player.sympathy_vera -=2
+AttributeError: type object 'player' has no attribute 'sympathy_vera'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 107, in script
+    $player.sympathy_vera -=2
+  File "D:\download\renpy-8.0.1-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\download\renpy-8.0.1-sdk\renpy\python.py", line 1049, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 107, in <module>
+    $player.sympathy_vera -=2
+AttributeError: type object 'player' has no attribute 'sympathy_vera'
+
+Windows-10-10.0.19042 AMD64
+Ren'Py 8.0.1.22070801
+gg 1.0
+Wed Jul 20 23:22:12 2022
